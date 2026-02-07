@@ -1,16 +1,62 @@
-## Hi there 👋
+// ===============================
+// GitHub Profile — Bonly Kimheng
+// ===============================
 
-<!--
-**kimheng354/kimheng354** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+const user = {
+  name: "Bonly Kimheng",
+  role: [
+    "Fullstack Web Developer",
+    "Junior DevOps Engineer"
+  ],
+  location: "Earth 🌍",
+  languages: ["JavaScript", "TypeScript", "HTML", "CSS", "Bash"],
+  frameworks: [
+    "Node.js",
+    "Express",
+    "React",
+    "Next.js"
+  ],
+  devOps: [
+    "Docker",
+    "Linux",
+    "CI/CD",
+    "Nginx",
+    "GitHub Actions",
+    "AWS (basic)"
+  ],
+  databases: [
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL"
+  ],
+  tools: [
+    "Git",
+    "VS Code",
+    "Postman",
+    "Figma"
+  ],
+  mindset: "Always learning, always building 🚀"
+};
 
-Here are some ideas to get you started:
+function aboutMe() {
+  console.log(`
+  👋 Hi, I'm ${user.name}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  💻 ${user.role.join(" | ")}
+  
+  🧠 I enjoy building scalable web apps,
+  automating workflows, and deploying
+  real-world systems.
+
+  🔧 Tech Stack:
+  - Frontend: React, Next.js
+  - Backend: Node.js, Express
+  - DevOps: Docker, CI/CD, Linux
+
+  🚀 Goal:
+  Become a strong Fullstack + DevOps Engineer
+  who ships reliable, production-ready software.
+  `);
+}
+
+aboutMe();
