@@ -5,18 +5,28 @@
 
 ---
 
-## 💡 Coding Rituals
-- Listen to music for focus 🎵
-- Coffee fuels debugging ☕
-- Write documentation first
-- Follow test-driven development (TDD)
 
----
-
-## 🎯 Current Focus
-- Master Kubernetes orchestration
-- Build scalable CI/CD pipelines
-- Learn advanced Docker networking
+<table>
+  <tr>
+    <td valign="top">
+      <strong>💡 Coding Rituals</strong>
+      <ul>
+        <li>Listen to music for focus 🎵</li>
+        <li>Coffee fuels debugging ☕</li>
+        <li>Write documentation first</li>
+        <li>Follow test-driven development (TDD)</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <strong>🎯 Current Focus</strong>
+      <ul>
+        <li>Master Kubernetes orchestration</li>
+        <li>Build scalable CI/CD pipelines</li>
+        <li>Learn advanced Docker networking</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -51,8 +61,6 @@
 
 ---
 
-
-
 ## 🔗 Connect with me
 
 <div align="left">
@@ -60,4 +68,3 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" />
   </a>
 </div>
-
